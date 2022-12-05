@@ -1,0 +1,27 @@
+.navbar{
+  position: fixed;
+  min-height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 0 2rem 0 0 ;
+}
+
+.navbar *{
+  color: #393c41;
+}
+.navbar .logo{
+  padding: 1.1rem 3rem;
+}
+@media (max-width : 1198px) {
+  .navbar .logo{
+    padding: 1.1rem;
+  }
+}
+.navbar .logo img{
+  height: 0.75rem;
+}

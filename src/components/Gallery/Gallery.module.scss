@@ -1,0 +1,38 @@
+.gcontainer{
+    position: relative;
+    width: 100%;
+}
+
+.close{
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    background-color: #eae8e8;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image-gallery-icon{
+    display: none !important;
+}
+
+.image-gallery-thumbnails{
+    width: fit-content !important;
+}
+
+.image-gallery-thumbnails button{
+    width: fit-content;
+    height: fit-content;
+}
+
+.image-gallery-thumbnail-image{
+    width: 150px;
+    height: 150px;
+}

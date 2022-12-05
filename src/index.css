@@ -1,0 +1,43 @@
+:root {
+  --transition: .5s;
+  --black-color: #171a20;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.eot");
+  src: url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.woff") format("woff"), url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/013bc3f20021c3221eeb427f1f3929f4.svg#Gotham Pro") format("svg");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* color: #393c41; */
+}
+
+/* div,em,p,h1{
+  color: white !important;
+} */
+
+html {
+  -moz-scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
